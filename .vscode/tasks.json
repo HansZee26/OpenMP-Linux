@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-normal",
+            "type": "shell",
+            "command": "${workspaceFolder}/pawn-compiler/pawncc",
+            "args": [
+                "${file}",
+                "-D${fileDirname}",
+                "-i${workspaceFolder}/include",
+                // Escape argumen khusus PawnCC supaya Bash tidak error
+                "\"-;+\"",
+                "\"-(+\"",
+                "-Z+",
+                "-d3",
+                "-o${fileDirname}/${fileBasenameNoExtension}.amx"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": "$pawncc"
+        }
+    ]
+}
