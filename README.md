@@ -8,8 +8,7 @@
 Template gamemode **OpenMP** ini dibuat untuk pengguna **Linux**.  
 Gunakan skrip `compile.sh` untuk meng-compile gamemode, filterscript, atau file `.inc`.
 
-### Cara Compile
-**Gamemode:**
+### Cara Compile :
 ```bash
 sh compile.sh gamemodes/nama_file.pwn
 
