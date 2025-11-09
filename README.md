@@ -22,6 +22,11 @@ Melalui VS Code:
 
     Tekan Ctrl + Shift + B saat membuka file .pwn di folder gamemodes atau filterscripts.
 
+Jalankan Server :
+```bash
+./omp-server
+```
+
 🇬🇧 English
 
 This OpenMP gamemode template is made for Linux users.
@@ -41,6 +46,11 @@ sh compile.sh include/your_file.inc
 Using VS Code:
 
     Press Ctrl + Shift + B while editing a .pwn file in the gamemodes or filterscripts folder.
+
+Run Server :
+```bash
+./omp-server
+```
 
 Compiler Path: pawn-compiler/pawncc
 Output: Generated .amx file in the same directory
