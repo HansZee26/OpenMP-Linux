@@ -177,5 +177,3 @@ sudo zypper install glibc-32bit libstdc++6-32bit zlib-32bit ncurses-32bit
 After installation, verify the binary runs or check the library dependencies (e.g. `ldd ./omp-server` or `file omp-server`). `ldd` will list any `not found` libraries — install the corresponding 32-bit package for each missing library.
 
 ---
-
-If you ingin saya tambahkan contoh `systemd` service file atau instruksi tambahan untuk distro tertentu, beri tahu saya.
