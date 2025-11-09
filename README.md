@@ -13,11 +13,11 @@ Gunakan skrip `compile.sh` untuk meng-compile gamemode, filterscript, atau file 
 sh compile.sh gamemodes/nama_file.pwn
 ```
 Filterscript atau .inc file:
-
+```bash
 sh compile.sh filterscripts/nama_file.pwn
 # atau
 sh compile.sh include/nama_file.inc
-
+```
 Melalui VS Code:
 
     Tekan Ctrl + Shift + B saat membuka file .pwn di folder gamemodes atau filterscripts.
